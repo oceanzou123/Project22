@@ -167,12 +167,12 @@ $(function(){
 		        // Show the dialog
 				/*dialog.trigger('show');*/
 
-				if(!isShaking){
+				/*if(!isShaking){*/
 					$('.alarm-button').shaking();
-				}else{
+		/*		}else{
 					$('.close').hiding();
 				}
-
+*/
 				/*$('.alarm-button').shaking();*/
 		    }
 		};
