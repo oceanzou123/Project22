@@ -154,11 +154,11 @@ $(function(){
 
 		    // start listening to device motion
 		    myShakeEvent.start();
-
+ 	
 		    // register a shake event
 		    window.addEventListener('shake', shakeEventDidOccur, false);
 
-		    var isShake = false;
+		    
 		    //shake event callback
 		    function shakeEventDidOccur () {
 
