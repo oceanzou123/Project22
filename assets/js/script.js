@@ -158,22 +158,14 @@ $(function(){
 		    // register a shake event
 		    window.addEventListener('shake', shakeEventDidOccur, false);
 
-		    var isShaking = false;
 		    //shake event callback
 		    function shakeEventDidOccur () {
 
 		        //put your own code here etc.
 		       /* alert('I am sorry today!');*/
 		        // Show the dialog
-				/*dialog.trigger('show');*/
-
-				/*if(!isShaking){*/
-					$('.alarm-button').shaking();
-		/*		}else{
-					$('.close').hiding();
-				}
-*/
-				/*$('.alarm-button').shaking();*/
+				dialog.trigger('show');
+				$('.alarm-button').shaking();
 		    }
 		};
 
@@ -182,12 +174,6 @@ $(function(){
 				// Show the dialog
 		dialog.trigger('show');
 	};
-
-/*	function hiding(){
-
-				// Show the dialog
-		dialog.trigger('hide');
-	};*/
 
 
 /*	$('.alarm-button').click(function(){
