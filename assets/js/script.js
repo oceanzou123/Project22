@@ -172,7 +172,8 @@ $(function(){
 
 		        }else{
 		        	dialog.trigger('hide')
-		        	$('.close').hiding();
+		        	/*$('.close').hiding();*/
+		        	dialog.hiding();
 		        	isShake=false;
 		        }
 
