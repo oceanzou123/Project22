@@ -168,6 +168,8 @@ $(function(){
 		        if(!isShake){
 		        	dialog.trigger('show');
 					$('.alarm-button').shaking();
+		        }else{
+
 		        }
 
 		    }
@@ -179,6 +181,11 @@ $(function(){
 		dialog.trigger('show');
 	};
 
+	function hiding(){
+
+				// Show the dialog
+		dialog.trigger('show');
+	};
 
 /*	$('.alarm-button').click(function(){
 		
