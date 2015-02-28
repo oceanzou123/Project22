@@ -169,7 +169,7 @@ $(function(){
 				if(!isShake){
 					$('.alarm-button').shaking();
 					isShake=true;
-				}
+				};
 				/*$('.alarm-button').shaking();*/
 		    }
 		};
