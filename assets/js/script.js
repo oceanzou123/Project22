@@ -157,14 +157,14 @@ $(function(){
 
 		    // register a shake event
 		    window.addEventListener('shake', shakeEventDidOccur, false);
-
+		    
 		    //shake event callback
 		    function shakeEventDidOccur () {
 
 		        //put your own code here etc.
 		       /* alert('I am sorry today!');*/
 		        // Show the dialog
-				dialog.trigger('show');
+				/*dialog.trigger('show');*/
 				$('.alarm-button').shaking();
 		    }
 		};
