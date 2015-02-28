@@ -166,10 +166,9 @@ $(function(){
 		       /* alert('I am sorry today!');*/
 		        // Show the dialog
 				/*dialog.trigger('show');*/
-				if(!isShake){
+				
 					$('.alarm-button').shaking();
-					isShake=true;
-				};
+					
 				/*$('.alarm-button').shaking();*/
 		    }
 		};
