@@ -157,7 +157,8 @@ $(function(){
 
 		    // register a shake event
 		    window.addEventListener('shake', shakeEventDidOccur, false);
-		    
+
+		    var isShaking = false;
 		    //shake event callback
 		    function shakeEventDidOccur () {
 
@@ -165,7 +166,14 @@ $(function(){
 		       /* alert('I am sorry today!');*/
 		        // Show the dialog
 				/*dialog.trigger('show');*/
-				$('.alarm-button').shaking();
+
+				if(!isShaking){
+					$('.alarm-button').shaking();
+				}else{
+					$('.close').hiding();
+				}
+
+				/*$('.alarm-button').shaking();*/
 		    }
 		};
 
@@ -173,6 +181,12 @@ $(function(){
 
 				// Show the dialog
 		dialog.trigger('show');
+	};
+
+	function hiding(){
+
+				// Show the dialog
+		dialog.trigger('hide');
 	};
 
 
