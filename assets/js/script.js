@@ -164,7 +164,7 @@ $(function(){
 		        //put your own code here etc.
 		       /* alert('I am sorry today!');*/
 		        // Show the dialog
-				dialog.trigger('show');
+				/*dialog.trigger('show');*/
 				$('.alarm-button').shaking();
 		    }
 		};
@@ -183,9 +183,9 @@ $(function(){
 
 	});
 */
-	dialog.find('.close').click(function(){
+/*	dialog.find('.close').click(function(){
 		dialog.trigger('hide')
-	});
+	});*/
 
 	dialog.click(function(e){
 
