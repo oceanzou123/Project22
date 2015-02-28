@@ -154,18 +154,16 @@ $(function(){
 
 		    // start listening to device motion
 		    myShakeEvent.start();
- 	
+
 		    // register a shake event
 		    window.addEventListener('shake', shakeEventDidOccur, false);
 
-		    
 		    //shake event callback
 		    function shakeEventDidOccur () {
 
 		        //put your own code here etc.
 		       /* alert('I am sorry today!');*/
 		        // Show the dialog
-			
 				$('.alarm-button').shaking();
 		    }
 		};
