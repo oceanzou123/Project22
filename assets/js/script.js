@@ -164,7 +164,7 @@ $(function(){
 		        //put your own code here etc.
 		       /* alert('I am sorry today!');*/
 		        // Show the dialog
-				/*dialog.trigger('show');*/
+				dialog.trigger('show');
 				$('.alarm-button').shaking();
 		    }
 		};
