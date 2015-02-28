@@ -183,11 +183,11 @@ $(function(){
 		dialog.trigger('show');
 	};
 
-	function hiding(){
+/*	function hiding(){
 
 				// Show the dialog
 		dialog.trigger('hide');
-	};
+	};*/
 
 
 /*	$('.alarm-button').click(function(){
