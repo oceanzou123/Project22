@@ -158,7 +158,7 @@ $(function(){
 		    // register a shake event
 		    window.addEventListener('shake', shakeEventDidOccur, false);
 
-		    var isShake = false;
+		   /* var isShake = false;*/
 		    //shake event callback
 		    function shakeEventDidOccur () {
 
