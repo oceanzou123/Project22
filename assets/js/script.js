@@ -168,10 +168,12 @@ $(function(){
 		        if(!isShake){
 		        	dialog.trigger('show');
 					$('.alarm-button').shaking();
+					isShake=true;
 
 		        }else{
 		        	dialog.trigger('hide')
 		        	$('.close').hiding();
+		        	isShake=false;
 		        }
 
 		    }
