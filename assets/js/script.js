@@ -165,8 +165,11 @@ $(function(){
 		        //put your own code here etc.
 		       /* alert('I am sorry today!');*/
 		        // Show the dialog
-				dialog.trigger('show');
-				$('.alarm-button').shaking();
+		        if(!isShake){
+		        	dialog.trigger('show');
+					$('.alarm-button').shaking();
+		        }
+
 		    }
 		};
 
