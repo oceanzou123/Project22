@@ -189,7 +189,7 @@ $(function(){
 	function hiding(){
 
 				// Show the dialog
-		dialog.trigger('show');
+		dialog.trigger('hide');
 	};
 
 /*	$('.alarm-button').click(function(){
