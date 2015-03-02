@@ -4,6 +4,8 @@ $(function(){
 	$("#circle2").hide();
 	// Cache some selectors
 
+	$("#isShake").hide();
+
 	var clock = $('#clock'),
 		alarm = clock.find('.alarm'),
 		ampm = clock.find('.ampm'),
@@ -168,14 +170,16 @@ $(function(){
 		       /* alert('I am sorry today!');*/
 		        // Show the dialog
 		        if(!isShake){
-		        	dialog.trigger('show');
+/*		        	dialog.trigger('show');
 					$('.alarm-button').shaking();
-					isShake=true;
+					isShake=true;*/
+					$("#isShake").show();
 
 		        }else{
 		        	dialog.trigger('hide')
-		        	$('.overlay').hiding();    /* where I don't know how to deal with*/
-		        	isShake=false;
+		        	/*$('.overlay').hiding(); */   /* where I don't know how to deal with*/
+		        	/*isShake=false;*/
+		        	$("#isShake").hide();
 		        }
 
 		    }
