@@ -162,8 +162,8 @@ $(function(){
 		    // register a shake event
 		    window.addEventListener('shake', shakeEventDidOccur, false);
 
-		    $('shakingbox').hide();
-		    $('shakingbox2').hide();
+		    $('#shakingbox').hide();
+		    $('#shakingbox2').hide();
 
 		    var isShake=false;
 		    //shake event callback
@@ -176,13 +176,13 @@ $(function(){
 /*		        	dialog.trigger('show');
 					$('.alarm-button').shaking();*/
 					isShake=true;
-					$('shakingbox').show();
+					$('#shakingbox').show();
 
 		        }else{
 		        	/*dialog.trigger('hide')*/
 		        	/*$('.close').hiding();  */  /* where I don't know how to deal with*/
 		        	isShake=false;
-		        	$('shakingbox').hide();
+		        	$('#shakingbox').hide();
 		        }
 
 		    }
