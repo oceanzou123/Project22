@@ -170,8 +170,8 @@ $(function(){
 		       /* alert('I am sorry today!');*/
 		        // Show the dialog
 		        if(!isShake){
-		        	/*dialog.trigger('show');*/
-					$('.alarm-button').shaking();
+		        	dialog.trigger('show');
+					/*$('.alarm-button').shaking();*/
 					isShake=true;
 
 		        }else{
