@@ -4,7 +4,8 @@ $(function(){
 	$("#circle2").hide();
 	// Cache some selectors
 
-	$("#isShake").hide();
+	$('#shakingbox').hide();
+	$('#shakingbox2').hide();
 
 	var clock = $('#clock'),
 		alarm = clock.find('.alarm'),
@@ -161,9 +162,6 @@ $(function(){
 
 		    // register a shake event
 		    window.addEventListener('shake', shakeEventDidOccur, false);
-
-		    $('#shakingbox').hide();
-		    $('#shakingbox2').hide();
 
 		    var isShake=false;
 		    //shake event callback
