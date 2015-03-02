@@ -299,6 +299,8 @@ $(function(){
 
 	time_is_up.click(function(){
 		time_is_up.fadeOut();
+		$("#circle1").hide();	
+		$("#circle2").hide();
 	});
 
 });
