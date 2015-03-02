@@ -171,9 +171,10 @@ $(function(){
 					isShake=true;
 
 		        }else{
-		        	dialog.trigger('hide')
-		        	$('.overlay').hiding();    /* where I don't know how to deal with*/
-		        	isShake=false;
+/*		        	dialog.trigger('hide')
+		        	$('.overlay').hiding();   
+		        	isShake=false;*/
+		        	alert('s');
 		        }
 
 		    }
