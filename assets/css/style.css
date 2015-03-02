@@ -457,8 +457,8 @@ input::-webkit-inner-spin-button {
 
 #alarm-dialog, 
 #time-is-up{
-	width:500px;
-	height:375px;
+	width:200px;
+	height:200px;
 	background-color:#fff;
 	border-radius:2px;
 	box-shadow: 0 0 8px rgba(0,0,0,0.2);
