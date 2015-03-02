@@ -12,6 +12,7 @@
 		<link href="assets/css/style.css" rel="stylesheet" />
 
 		<!-- The main JS file -->
+		<script src="anijs-min.js"></script>
 		<script type="text/javascript" src="shake.js"></script>
 
 		<!--[if lt IE 9]>
@@ -30,11 +31,12 @@
 			<!-- </div> -->
 		</div>
 
-		<div class="button-holder">
-			<a class="alarm-button" class="spinner">
+		<div class="button-holder" class="spinner">
+			<a class="alarm-button">
 				<img class="alarm-button" src="assets/img/shaking-icons.png"></a>
 				<div class="double-bounce1"></div>
-		 	    <div class="double-bounce2"></div>
+			 	<div class="double-bounce2"></div>
+	
 		</div>
 
 
@@ -94,30 +96,6 @@
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
 		<script src="assets/js/script.js"></script>
-
-
-		<script type="text/javascript">
-		window.onload = function() {
-
-		    //create a new instance of shake.js.
-		    var myShakeEvent = new Shake({
-		        threshold: 15
-		    });
-
-		    // start listening to device motion
-		    myShakeEvent.start();
-
-		    // register a shake event
-		    window.addEventListener('shake', shakeEventDidOccur, false);
-
-		    //shake event callback
-		    function shakeEventDidOccur () {
-
-		        //put your own code here etc.
-		        alert('I am sorry today!');
-		    }
-		};
-		</script>
 
 	</body>
 </html>

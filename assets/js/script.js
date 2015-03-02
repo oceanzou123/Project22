@@ -1,3 +1,8 @@
+$( document ).click(function() {
+  $( "#shaking2" ).effect( "shake" );
+});
+
+
 $(function(){
 
 	// Cache some selectors
