@@ -1,5 +1,6 @@
 $(function(){
 
+	$(#circle1).hide();
 	// Cache some selectors
 
 	var clock = $('#clock'),
