@@ -223,6 +223,9 @@ $(function(){
 		var valid = true, after = 0,
 			to_seconds = [3600, 60, 1];
 
+		$("#circle1").show();	
+		$("#circle2").show();
+
 		dialog.find('input').each(function(i){
 
 			// Using the validity property in HTML5-enabled browsers:
