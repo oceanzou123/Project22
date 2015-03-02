@@ -170,13 +170,13 @@ $(function(){
 		       /* alert('I am sorry today!');*/
 		        // Show the dialog
 		        if(!isShake){
-		        	dialog.trigger('show');
-					/*$('.alarm-button').shaking();*/
+/*		        	dialog.trigger('show');
+					$('.alarm-button').shaking();*/
 					isShake=true;
 
 		        }else{
 		        	/*dialog.trigger('hide')*/
-		        	/*$('.close').hiding();*/    /* where I don't know how to deal with*/
+		        	/*$('.close').hiding();  */  /* where I don't know how to deal with*/
 		        	isShake=false;
 		        }
 
