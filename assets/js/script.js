@@ -188,19 +188,19 @@ $(function(){
 		    }
 		};
 
-	function shaking(){
+/*	function shaking(){
 
 		// Show the dialog
 		dialog.trigger('show');
-	};
-
+	};*/
+/*
 	function hiding(){
 
 		// hide the dialog
 		dialog.trigger('hide');
 		dialog.fadeOut();
 	};
-
+*/
 /*	$('.alarm-button').click(function(){
 		
 		// Show the dialog
