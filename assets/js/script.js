@@ -5,7 +5,7 @@ $(function(){
 	// Cache some selectors
 
 	$("#isShake").hide();
-	
+
 	var clock = $('#clock'),
 		alarm = clock.find('.alarm'),
 		ampm = clock.find('.ampm'),
@@ -176,7 +176,7 @@ $(function(){
 
 		        }else{
 		        	dialog.trigger('hide')
-		        	$('.overlay').hiding();    /* where I don't know how to deal with*/
+		        	$('.close').hiding();    /* where I don't know how to deal with*/
 		        	isShake=false;
 		        }
 
