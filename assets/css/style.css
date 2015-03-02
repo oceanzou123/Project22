@@ -80,8 +80,8 @@ section, footer, header, aside{
 
 
 #clock.light{
-	background-color:#f3f3f3;
-	color:#272e38;
+	background-color:#000000;
+	color:#ffffff;
 }
 
 #clock.light:after{
@@ -89,13 +89,13 @@ section, footer, header, aside{
 }
 
 #clock.light .digits div span{
-	background-color:#272e38;
-	border-color:#272e38;	
+	background-color:#f27019;
+	border-color:#f27019;	
 }
 
 #clock.light .digits div.dots:before,
 #clock.light .digits div.dots:after{
-	background-color:#272e38;
+	background-color:#f27019;
 }
 
 #clock.light .alarm{
@@ -113,7 +113,7 @@ section, footer, header, aside{
 --------------------------*/
 
 
-#clock.dark{
+/*#clock.dark{
 	background-color:#272e38;
 	color:#cacaca;
 }
@@ -139,7 +139,7 @@ section, footer, header, aside{
 #clock.dark .digits div.dots:before,
 #clock.dark .digits div.dots:after{
 	background-color:#cacaca;
-}
+}*/
 
 
 /*-------------------------
