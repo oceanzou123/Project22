@@ -200,9 +200,9 @@ $(function(){
 
 	});
 */
-/*	dialog.find('.close').click(function(){
+	dialog.find('.close').click(function(){
 		dialog.trigger('hide')
-	});*/
+	});
 
 	dialog.click(function(e){
 
