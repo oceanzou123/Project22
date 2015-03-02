@@ -10,6 +10,7 @@
 
 		<!-- The main CSS file -->
 		<link href="assets/css/style.css" rel="stylesheet" />
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
 
 		<!-- The main JS file -->
 		<script src="anijs-min.js"></script>
@@ -33,7 +34,7 @@
 
 		<div class="button-holder" class="spinner">
 			<a class="alarm-button">
-				<img class="alarm-button" src="assets/img/shaking-icons.png"></a>
+				<img class="alarm-button" id="toggle" src="assets/img/shaking-icons.png"></a>
 				<div class="double-bounce1"></div>
 			 	<div class="double-bounce2"></div>
 	
@@ -95,7 +96,22 @@
 		<!-- JavaScript Includes -->
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
-		<script src="assets/js/script.js"></script>
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  		<script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+  		<script src="assets/js/script.js"></script>
 
+  		<script>
+
+  		window.setInterval(myFunction,1500);
+
+  		function myFunction(){
+  			$( "#toggle" ).effect( "shake" );
+  		}
+
+/*		$(window).load(function() {
+		  $( "#toggle" ).effect( "shake" );
+		});
+*/
+		</script>
 	</body>
 </html>
