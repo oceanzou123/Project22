@@ -170,7 +170,7 @@ $(function(){
 		       /* alert('I am sorry today!');*/
 		        // Show the dialog
 		        if(!isShake){
-		        	dialog.trigger('show');
+		        	/*dialog.trigger('show');*/
 					$('.alarm-button').shaking();
 					isShake=true;
 
@@ -178,7 +178,6 @@ $(function(){
 		        	dialog.trigger('hide')
 		        	$('.close').hiding();    /* where I don't know how to deal with*/
 		        	isShake=false;
-		        	$('.overlay').hide();
 		        }
 
 		    }
@@ -186,7 +185,7 @@ $(function(){
 
 	function shaking(){
 
-				// Show the dialog
+		// Show the dialog
 		dialog.trigger('show');
 	};
 
