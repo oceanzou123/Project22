@@ -187,8 +187,9 @@ $(function(){
 
 	function hiding(){
 
-				// Show the dialog
+		// hide the dialog
 		dialog.trigger('hide');
+		dialog.fadeOut();
 	};
 
 /*	$('.alarm-button').click(function(){
