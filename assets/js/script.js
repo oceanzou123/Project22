@@ -176,7 +176,7 @@ $(function(){
 
 		        }else{
 		        	/*dialog.trigger('hide')*/
-		        	$('.close').hiding();    /* where I don't know how to deal with*/
+		        	/*$('.close').hiding();*/    /* where I don't know how to deal with*/
 		        	isShake=false;
 		        }
 
