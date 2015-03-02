@@ -1,5 +1,8 @@
 $(function(){
 
+	$("#circle1").hide();
+	$("#circle2").hide();	
+
 	// Cache some selectors
 
 	var clock = $('#clock'),
@@ -251,6 +254,9 @@ $(function(){
 
 		alarm_counter = after;
 		dialog.trigger('hide');
+
+		$("#circle1").show();
+		$("#circle2").show();	
 	});
 
 	alarm_clear.click(function(){
@@ -294,6 +300,8 @@ $(function(){
 
 	time_is_up.click(function(){
 		time_is_up.fadeOut();
+		$("#circle1").hide();
+		$("#circle2").hide();	
 	});
 
 });

@@ -23,7 +23,7 @@
 		<![endif]-->
 	</head>
 
-	<body class="parallax-window" data-parallax="scroll">
+	<body class="parallax-window grid" data-parallax="scroll">
 
 		<div id="clock" class="light col-10of10">
 			<!-- <div class="display"> -->
@@ -34,20 +34,18 @@
 			<!-- </div> -->
 		</div>
 
-		<div class="button-holder" class="spinner">
+		<div class="button-holder col-10of10" class="spinner">
 			<a class="alarm-button">
-				<img class="alarm-button" id="toggle" src="assets/img/shaking-icons.png">
-			</a>
-				<div class="double-bounce1"></div>
-			 	<div class="double-bounce2"></div>
-	
+				<img class="alarm-button" id="toggle" src="assets/img/shaking-icons.png"></a>
+				<div class="double-bounce1" id="circle1"></div>
+			 	<div class="double-bounce2" id="circle2"></div>
 		</div>
 
 
 		<!-- The dialog is hidden with css -->
-		<div class="overlay grid">
+		<div class="overlay col-10of10">
 
-			<div id="alarm-dialog" class="col-10of10">
+			<div id="alarm-dialog col-10of10">
 
 				<h2>Set alarm after</h2>
 
@@ -77,7 +75,7 @@
 
 		</div>
 
-		<div class="overlay">
+		<div class="overlay col-10of10">
 
 			<div id="time-is-up">
 
